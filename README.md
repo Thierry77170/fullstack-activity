@@ -39,7 +39,7 @@ Mon API tourne en locale en localhost (port 3000) et accepter les requêtes HTTP
 
 ## Pour tester l'API
 
-Pour tester l'API, vous allez installer dans un premier temps une mini-application front-end. Clonez le repo.
+Pour tester l'API, clonez le repo. vous allez installer dans un premier temps l'application front-end.
 
 Depuis le dossier frontend, exécutez npm install puis npm start . Vous devriez voir s'ouvrir une fenêtre de navigateur comme celle-ci :
 ![fullstack-activity](frontend/images/fenetreNavigateur.webp)
