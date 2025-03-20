@@ -20,15 +20,15 @@ Retourne le produit avec le _id fourni sous la forme { product: Product }
 POST:/api/products
 Crée un nouveau Product dans la base de données.
 Le corps de la requête a pour forme :
-![fullstack-activity](Frontend/images/cinqRoutes.webp)
+![fullstack-activity](frontend/images/cinqRoutes.webp)
 Il retourne le Product ainsi créé (y compris son champ _id ), sous la forme{ product: Product }.
 La Promise retournée par la méthode save() de mon modèle Mongoose reçoit le produit créé :
-![fullstack-activity](Frontend/images/promiseSave.webp)
+![fullstack-activity](frontend/images/promiseSave.webp)
 
 PUT: /api/products/:id
 Modifie le produit avec le _id fourni selon les données envoyées dans le corps de la requête.
 Le corps de la requête a pour forme :
-![fullstack-activity](Frontend/images/promiseSave.webp)
+![fullstack-activity](frontend/images/promiseSave.webp)
 Retourne un objet de la forme { message: 'Modified!' }
 
 DELETE : /api/products/:id
@@ -40,12 +40,12 @@ Mon API tourne en locale en localhost (port 3000) et accepter les requêtes HTTP
 Pour tester l'API, vous allez installer dans un premier temps une mini-application front-end. Clonez le repo.
 
 Depuis le dossier frontend, exécutez npm install puis npm start . Vous devriez voir s'ouvrir une fenêtre de navigateur comme celle-ci :
-![fullstack-activity](Frontend/images/fenetreNavigateur.webp)
+![fullstack-activity](frontend/images/fenetreNavigateur.webp)
 
 Dans un deuxième temps, après avoir installé les technologie utilisées (Node.js, Express, mongoose et nodemon), exécutez nodemon server. Vous pouvez lancer le teste.
 
 En cas de succès, vous verrez la fenêtre de navigation comme celle-ci :
-![fullstack-activity](Frontend/images/fenetreSucces.webp)
+![fullstack-activity](frontend/images/fenetreSucces.webp)
 
 ## Les technologies utilisées
 
